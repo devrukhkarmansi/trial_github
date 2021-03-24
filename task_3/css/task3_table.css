@@ -1,0 +1,18 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+
+/* Table css */
+table,th,td{
+    border: 1px solid black;
+}
+
+.bold_center{
+    text-align: center;
+    font-weight: bold;
+}
+table{
+    border-collapse: separate !important;
+}

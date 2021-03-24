@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Task 3</title>
+        <link rel="stylesheet" href="css/task_3.css">
+        <link rel="stylesheet" href="css/task3_table.css">
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <!--flex-->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!--for icons-->
+        
+    </head>
+    <body>
+        <div>
+             <!--this div is for navbar-->
+             <div class="drop" id="navbar">   
+              <ul class="drop_menu">
+                  <li><a href="task_3.html#mobile-nav">Home <i class="fa fa-home" aria-hidden="true"></i></a></li>
+                  <li><a href="task_3.html#audio_video">News <i class="fa fa-newspaper-o" aria-hidden="true"></i></a>
+                      <ul>
+                          <li><a href='#'>Sub Link 1</a></li>
+                          <li><a href='#'>Sub Link 2</a></li>
+                          <li><a href='#'>Sub Link 3</a></li>
+                          <li><a href='#'>Sub Link 4</a></li>
+                          </ul>
+                  </li>
+  
+                  <li><a href="task_3.html#30_70">Contact <i class="fa fa-phone" aria-hidden="true"></i></a></li>
+                  <li><a href="task_3.html#card_flip">About <i class="fa fa-info" aria-hidden="true"></i></a></li>
+              </ul>
+              
+  
+          </div>
+
+        <!--This div is for mobile menu-->
+
+        <div class="container1" id="mobile-nav">
+            <div class="mnavbar">
+                <div>
+                    <a href="#nav" class="active">Logo</a>
+                <div id="links">
+                    <a href="#">Audio Video page</a>
+                    <a href="#">Image Contents</a>
+                    <a href="#">About us</a>
+                </div>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                  </a>
+            </div>
+        </div>
+       
+    
+
+        </div>
+
+
+
+
+       
+<!-- This is for imag_card-->
+
+<div class="row" id="card_flip">
+    <div class="col">
+        <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="img/person1.jpg" alt="Avatar">
+              </div>
+              <div class="flip-card-back">
+                <h1>Xyz Pqr</h1> 
+                <p>Architect & Engineer</p> 
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col">
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="img/person2.jpg" alt="Avatar">
+                  </div>
+                  <div class="flip-card-back">
+                    <h1>Xyz Pqr</h1> 
+                    <p>Designer</p> 
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="col">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front">
+                        <img src="img/person3.png" alt="Avatar" >
+                      </div>
+                      <div class="flip-card-back">
+                        <h1>Xyz Pqr</h1> 
+                        <p>Lawyer</p> 
+                      </div>
+                    </div>
+                  </div>
+                </div>
+        </div>
+
+
+
+        <!--30_70-->
+
+        <div class="container-for-30-70" id="30_70">
+            <section class="firstsec">
+            <div class="leftside">
+                <img src="img/nature1.jpg" alt="alternate">
+                
+            </div>
+            <div class="rightside">
+                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
+            </div>
+        </section>
+        <section class="secondsec">
+            <div class="leftside">
+                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
+            
+            </div>
+            <div class="rightside">
+                <img src="img/nature1.jpg" alt="alternate" >
+            </div>
+        </section>
+    
+        </div>
+
+        <!--audio video-->
+        <div class="audio_video" id="audio_video">
+            <div>
+                <audio id="audio1" onkeyup="playAudio()" onmouseover="pauseAudio()" controls>
+                    <source src="audio/audio_demo.mp3" type="audio/mpeg">
+                  Your browser does not support the audio element.
+                  </audio>
+                </div>
+                  <div>
+                  <video id="video1" width="400"  onkeyup="playVid()" onmouseover="pauseVid()" controls>
+                      <source src="video/video_demo.mp4" type="video/mp4"  >
+                      Your browser does not support HTML video.
+                    </video>
+                  </div>
+        </div>
+
+
+
+        <h2> Table </h2>
+    <table>
+        <tr>
+            <td class="bold_center" rowspan="2">67</td>
+            <td class="bold_center">xyz</td>
+            <td>ttt</td>
+            <td class="bold_center" colspan="2">pos</td>
+            <td class="bold_center">pppp</td>
+            
+        </tr>
+        <tr>
+            <td>LLL</td>
+            <td class="bold_center" rowspan="2">lmn</td>
+            <td>xT<sub>1</sub></td>
+            <td></td>
+            <td class="bold_center" rowspan="2">P<sub>0</sub>T</td>
+        </tr>
+        <tr>
+            <td>T3</td>
+            <td></td>
+            <td></td>
+            <td>uT<sup>2</sup></td>
+        </tr>
+    </table>
+
+
+        <script type="text/javascript" src="js/navbar.js"></script>
+        <script type="text/javascript" src="js/audio_video.js"></script>
+        </div>
+    </body>
+</html>
